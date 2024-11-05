@@ -46,6 +46,57 @@
   </div>
 </nav>
 
+<div class="container mt-3">
+  <div  class="row">
+    <div class="col">
+      <?php 
+        //include 'config.php';
+
+        switch($_REQUEST['page']){
+          
+          case 'cadastrar_marcas';
+           include 'cadastrar_marcas.php';
+            break;
+
+          case 'listar_marcas';
+           include 'listar_marcas.php';
+            break;
+
+          case 'editar_marcas';
+           include 'editar_marcas.php';
+            break;
+
+          case 'salvar_marcas';
+           include 'salvar_marcas.php';
+            break;
+
+          case 'cadastrar_modelos';
+           include 'cadastrar_modelos.php';
+            break;
+
+          case 'listar_modelos';
+           include 'listar_modelos.php';
+            break;
+
+          case 'editar_modelos';
+           include 'editar_modelos.php';
+            break;
+
+          case 'salvar_modelos';
+           include 'salvar_modelos.php';
+            break;
+
+            default:
+              echo "<h1>Seja Bem-Vindo!!</h1>";
+        };
+      ?>
+    
+
+
+    </div>
+  </div>
+</div>
+
 	<script src="./js/bootstrap.bundle.min.js">
 
 	</script>
