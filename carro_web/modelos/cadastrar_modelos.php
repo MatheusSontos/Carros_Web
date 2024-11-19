@@ -14,17 +14,17 @@
         <div class="card" style="width: 300rem">
         <div>
             <div class="container mb-3">
-                <label class="mt-3">Marca</label>
-                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Marca"> 
+                <label class="mt-3">Modelo</label>
+                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Modelo"> 
 
-                <label class="mt-3">Marca</label>
-                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Marca"> 
+                <label class="mt-3">Modelo</label>
+                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Modelo"> 
 
-                <label class="mt-3">Marca</label>
-                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Marca"> 
+                <label class="mt-3">Modelo</label>
+                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Modelo"> 
 
-                <label class="mt-3">Marca</label>
-                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Marca"> 
+                <label class="mt-3">Modelo</label>
+                <input type="text" name="marca" class="from-control" placeholder="Digite o Nome Da Modelo"> 
             </div>
             <div class="container mb-3">
                 <button type="submit" class="btn btn-primary">Cadatrar</button>

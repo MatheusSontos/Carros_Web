@@ -50,9 +50,9 @@
   <div  class="row">
     <div class="col">
       <?php 
-        //include 'config.php';
+        include 'config.php';
 
-        switch($_REQUEST['page']){
+        switch(@$_REQUEST['page']){
           
           case 'cadastrar_marcas';
            include 'cadastrar_marcas.php';
